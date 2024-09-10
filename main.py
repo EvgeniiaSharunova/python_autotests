@@ -1,9 +1,10 @@
 # encoding=utf8
 import requests
+import data
 
-URL = 'https://api.pokemonbattle.ru/v2'
-TOKEN = '6f4d01a955e2b2194eff5381a30275a1'
-HEADER = {'Content-Type': 'application/json', 'trainer_token': TOKEN}
+URL = data.URL
+TOKEN = data.TOKEN
+HEADER = data.HEADER
 body_add_pokemon = {
     "name": "Покемон",
     "photo_id": 5
